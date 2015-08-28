@@ -1,5 +1,5 @@
 # ITSE-2321-JSP
-A set of student exercises from a JSP class.
+This repo contains a set of four small web-service projects produced for a JSP class.
 
 Assignments included:
 - Assignment 09: Introducing JSP tags
