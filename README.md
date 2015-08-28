@@ -10,5 +10,5 @@ Assignments included:
 (See issue logged for Assignment 11).
 
 This set of assignments is hosted by Openshift Online at:
-http://itse2317s001-accjavabridges.rhcloud.com/
+http://itse2317-accjavabridges.rhcloud.com/
 
