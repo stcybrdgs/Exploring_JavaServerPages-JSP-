@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asg10: Form Processing with JSP</title>
+        <link rel="stylesheet" type="text/css" href="css-2.css">	
+    </head>
+
+    <body>
+        <h1>Join The Sports Pulse!</h1>
+        <p>To join, please complete the forms below.</p>	
+        <br>
+        <div class="center">
+            <!-- Start Form 1: demonstrate GET and text box -->
+            <div class="personalInfo">
+                <h3>Personal Information:</h3>
+                <form action="form-processor-one.jsp" method="GET">
+                    <table>
+                        <tr>
+                            <td>First Name:</td>
+                            <td><input class="formBox" type="text" name="firstName"></td>			
+                        </tr>
+                        <tr>
+                            <td>Last Name:</td>
+                            <td><input class="formBox" type="text" name="lastName"></td>					
+                        </tr>
+                        <tr>
+                            <td>College Name:</td>
+                            <td><input class="formBox" type="text" name="collegeName"></td>					
+                        </tr>
+                        <tr>
+                            <td>Phone Number:</td>
+                            <td><input class="formBox" type="text" name="phoneNumber"></td>					
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="submitButton">
+                                <input type="submit" value="Submit Personal Info">
+                            </td>		
+                        </tr>
+                    </table>		
+                </form>
+                <br><br>
+            </div>
+            <div class="favoritesInfo">
+            <!-- Start Form 2: demonstrate POST, drop menu, and text area -->
+                    <h3>Favorites Information:</h3>
+                    <form action="form-processor-two.jsp" method="POST">
+                        <table>
+                            <tr>
+                                <td>Favorite Sport:</td>
+                                <td>
+                                    <select class="formBox" name="favoriteSport">
+                                        <option value="rugby">Rugby</option>
+                                        <option value="cricket">Cricket</option>
+                                        <option value="curling">Curling</option>
+                                    </select>
+                                </td>			
+                            </tr>
+                            <tr>
+                                <td>Favorite Team:</td>
+                                <td>
+                                    <select class="formBox" name="favoriteTeam">
+                                        <option value="newZealand">New Zealand</option>
+                                        <option value="india">India</option>
+                                        <option value="canada">Canada</option>
+                                    </select>
+                                </td>					
+                            </tr>
+                            <tr>
+                                <td>Favorite Player:</td>
+                                <td>
+                                    <select class="formBox" name="favoritePlayer">
+                                        <option value="jonahLomu">Jonah Lomu</option>
+                                        <option value="sachinTendulkar">Sachin Tendulkar</option>
+                                        <option value="jenniferClarkRouire">Jennifer Clark-Rouire</option>
+                                    </select>
+                                </td>				
+                            </tr>
+                            <tr>
+                                <td>Reason Favorite:</td>
+                                <td>
+                                    <textarea class="formArea" name="reasonFavorite"></textarea>
+                                </td>					
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="submitButton">
+                                    <input type="submit" value="Submit Favorites Info">
+                                </td>		
+                            </tr>
+                        </table>
+                    </form>	
+                <br><br>	
+            </div>
+        </div>
+        <br><br>
+        <footer>
+            <em>asg10_sbridges</em>
+        </footer>
+    </body>
+<html>

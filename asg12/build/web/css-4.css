@@ -1,0 +1,64 @@
+/* css-4.css*/
+body {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: gainsboro;
+    font-family: "Arial", sans-serif;  
+    font-size: 1.2em;    
+}
+ul {
+    text-align: left;
+}
+li p {
+    margin: 10px 0px 0px 20px;
+    text-align: left;
+}
+td {
+    padding: 16px 18px 0px 0px;
+}
+td:first-child {
+    vertical-align: top;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color:yellow;
+}
+p {
+    margin: 10px 0px;
+}
+.button {
+    font-size: .9em;
+}
+.inline-block {
+    display: inline-table;
+}
+.center {
+    width: 600px;
+    margin: 0 auto;
+}
+div {
+    border:1px solid gray;	
+}
+.coral_color {
+    background-color: coral;
+}
+.sky_color {
+    background-color: #ADD6FF;
+}
+.blue_color {
+    color: blue;
+}
+#th-id1 {
+    background-color: plum;
+}
+footer {
+    font-size:.9em;
+}
+.confirmKey {
+    text-align: left;
+    color: blue;
+}

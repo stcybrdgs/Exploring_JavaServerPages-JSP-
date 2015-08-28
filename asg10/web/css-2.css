@@ -1,0 +1,53 @@
+/* css-2.css 
+   Stacy Bridges
+   asg10 
+*/
+body {
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+.center {
+	width: 600px;
+	margin: 0 auto;
+}
+div {
+	border:1px solid gray;	
+}
+td {
+	padding: 16px 18px 0px 0px;
+
+}
+td:first-child {
+	vertical-align: top;
+	text-align: right;
+	
+}
+form {
+	position: relative;
+	left: 10%;
+}
+.formBox{
+	width:150%;
+}
+.formArea{
+	width:150%;
+	height:150px;
+}
+.personalInfo {
+	background-color: #CCFFFF;
+
+}
+.favoritesInfo {
+	background-color: #FFCCCC;
+}
+.submitButton {
+	text-align: left;
+}
+.outputTable td {
+    position: relative;
+    left: 15%;
+    text-align: left;
+    border: 1px solid gray;
+    width:200px;
+    background-color: white;
+}
