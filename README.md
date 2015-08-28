@@ -7,6 +7,8 @@ Assignments included:
 - Assignment 11: Processing HTML forms using methods imported from external Java object files
 - Assignment 12: Creating cookies with JSP
 
+(See issue logged for Assignment 11).
+
 This set of assignments is hosted by Openshift Online at:
 http://itse2317s001-accjavabridges.rhcloud.com/
 
