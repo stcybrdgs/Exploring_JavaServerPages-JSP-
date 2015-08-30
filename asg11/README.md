@@ -1,3 +1,7 @@
-The folder structure in this tree is from a NetBeans build. The web/ folder contains my code work. 
+#asg11
+
+The folder structure in this tree is from a NetBeans build. 
+
+The 'web/' folder is the one that contains my code work. 
 
 An issue was logged against this assignment (See 'Issues').
