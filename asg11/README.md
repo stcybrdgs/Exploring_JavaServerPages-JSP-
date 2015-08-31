@@ -4,4 +4,4 @@ The folder structure in this tree is from a NetBeans build.
 
 The **['web/'](web/)** folder is the one that contains my code work. 
 
-An issue was logged against this assignment (See 'Issues').
+An **[issue](https://github.com/stcybrdgs/ITSE-2321-JSP/issues/1)** was logged against this assignment.
