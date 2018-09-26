@@ -1,4 +1,3 @@
-#ITSE-2321-JSP
 This repo contains a set of four small web-service projects created for a JSP class.
 
 Projects include:
