@@ -1,4 +1,4 @@
-This repo contains a set of four small web-service projects created for a JSP class.
+This repo contains a set of four small web-service projects using JSP.
 
 Projects include:
 - Project 09: Introducing JSP tags
